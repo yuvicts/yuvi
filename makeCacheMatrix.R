@@ -1,6 +1,5 @@
-makeCacheMatrix <- function( m = matrix() ) {
-
-	## Initialize the inverse property
+makeCacheMatrix <- function( m = matrix()) {
+## Initialize the inverse property
     i <- NULL
 set <- function( matrix ) {
             m <<- matrix
@@ -15,8 +14,7 @@ set <- function( matrix ) {
     setInverse <- function(inverse) {
         i <<- inverse
     }
-
-    ## Way to get the inverse of the matrix
+## Way to get the inverse of the matrix
     getInverse <- function() {
         ## Back the inverse property
         i
