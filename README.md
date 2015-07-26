@@ -1,3 +1,2 @@
 # yuvi
-R programming
-Initially completed the assignment 1
+Assignment -2 submission
